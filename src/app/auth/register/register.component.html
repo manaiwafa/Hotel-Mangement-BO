@@ -1,0 +1,11 @@
+<nb-stepper orientation="horizontal" [linear]="true" #stepper>
+  <nb-step label="Création Hotel">
+    <ngx-add-hotel [stepper]="stepper"></ngx-add-hotel>
+  </nb-step>
+  <nb-step label="Création Utilisateur">
+    <ngx-add-user></ngx-add-user>
+  </nb-step>
+  <nb-step label="Résumé">
+    <ngx-summary></ngx-summary>
+  </nb-step>
+</nb-stepper>
